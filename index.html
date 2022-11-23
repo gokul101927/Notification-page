@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;800&display=swap' rel='stylesheet'>
+  
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="reset.css">
+
+  <title>Frontend Mentor | Notifications page</title>
+
+</head>
+
+<body>
+  <main class="container">
+    <div class="wrapper">
+      <header>
+        <h1>
+          Notifications
+          <span class="count">3</span>
+        </h1>
+        <button class="mark-all-read">Mark all as read</button>
+      </header>
+      <div class="notifications">
+        <a href="#">
+          <img src="assets/images/avatar-mark-webber.webp" alt="mark webber">
+          <div class="content">
+            <p>
+              <span class="user">Mark Webber</span>
+              reacted to your recent post
+              <span class="activity">My first tournament today!</span>
+              <span class="dot"></span>
+            </p>
+            <p class="time">1m ago</p>
+          </div>
+        </a>
+      </div>
+      <div class="notifications">
+        <a href="#">
+          <img src="assets/images/avatar-angela-gray.webp" alt="Angela Gray">
+          <div class="content">
+            <p>
+              <span class="user">Angela Gray</span>
+              followed you
+              <span class="dot"></span>
+            </p>
+            <p class="time">5m ago</p>
+          </div>
+        </a>
+      </div>
+      <div class="notifications">
+        <a href="#">
+          <img src="assets/images/avatar-jacob-thompson.webp" alt="Jacob Thompson">
+          <div class="content">
+            <p>
+              <span class="user">Jacob Thompson</span>
+              has joined your group
+              <span class="activity">Chess Club</span>
+              <span class="dot"></span>
+            </p>
+            <p class="time">1 day ago</p>
+          </div>
+        </a>
+      </div>
+      <div class="notifications read">
+        <a href="#">
+          <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="Rizky Hasanuddin">
+          <div class="content">
+            <p>
+              <span class="user">Rizky Hasanuddin</span>
+              sent you a private message
+              <span class="dot"></span>
+            </p>
+            <p class="time">5 days ago</p>
+            <div class="message">
+              <p> Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and
+                I'm already having lots of fun and improving my game.</p>
+            </div>
+          </div>
+        </a>
+      </div>
+      <div class="notifications read">
+        <a href="#">
+          <img src="assets/images/avatar-kimberly-smith.webp" alt="Kimberly Smith">
+          <div class="content">
+            <p>
+              <span class="user">Kimberly Smith</span>
+              commented on your picture
+              <span class="dot"></span>
+              <img src="assets/images/image-chess.webp" alt="profile picture">
+            </p>
+            <p class="time">1 week ago</p>
+          </div>
+        </a>
+      </div>
+      <div class="notifications read">
+        <a href="#">
+          <img src="assets/images/avatar-nathan-peterson.webp" alt="Nathan Peterson">
+          <div class="content">
+            <p>
+              <span class="user">Nathan Peterson</span>
+              reacted to your recent post
+              <span class="activity">5 end-game strategies to increase your win rate</span>
+              <span class="dot"></span>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </a>
+      </div>
+      <div class="notifications read">
+        <a href="#">
+          <img src="assets/images/avatar-anna-kim.webp" alt="anna kim">
+          <div class="content">
+            <p>
+              <span class="user">Anna Kim</span>
+              left the group
+              <span class="activity">Chess Club</span>
+              <span class="dot"></span>
+            </p>
+            <p class="time">2 weeks ago</p>
+          </div>
+        </a>
+      </div>
+    </div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>

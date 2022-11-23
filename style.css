@@ -1,0 +1,136 @@
+:root {
+    --red: hsl(1, 90%, 64%);
+    --blue: hsl(219, 85%, 26%);
+    --white: hsl(0, 0%, 100%);
+    --very-light-grayish-blue: hsl(210, 60%, 98%);
+    --light-grayish-blue-1: hsl(211, 68%, 94%);
+    --light-grayish-blue-2: hsl(205, 33%, 90%);
+    --grayish-blue: hsl(219, 14%, 63%);
+    --dark-grayish-blue: hsl(219, 12%, 42%);
+    --very-dark-blue: hsl(224, 21%, 14%);
+}
+
+body {
+    font-family: 'Plus Jakarta Sans';
+    font-size: 16px;
+    background-color: var(--very-light-grayish-blue);
+}
+
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+}
+
+.wrapper {
+    background-color: var(--white);
+    max-width: 620px;
+    padding: 1.5rem 1rem;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--blue);
+}
+
+header span {
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--grayish-blue);
+}
+
+header button:hover {
+    color: var(--blue);
+}
+
+.notifications {
+    background-color: var(--very-light-grayish-blue);
+    margin: 10px 0;
+}
+
+.notifications a {
+    display: flex;
+    padding: 10px;
+    font-size: 14px;
+    text-decoration: none;
+    color: var(--grayish-blue);
+    border-radius: 5px;
+}
+
+.notifications p {
+    margin: 3px 15px;
+}
+
+.notifications img {
+    height: 45px;
+    width: 45px;
+}
+
+.user {
+    font-weight: 800;
+    color: var(--very-dark-blue);
+}
+
+.activity {
+    font-weight: 800;
+    color: var(--dark-grayish-blue);
+}
+
+.user:hover,
+.activity:hover {
+    color: var(--blue);
+}
+
+.dot {
+    margin-bottom: 2px;
+    background-color: var(--red);
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.read .dot {
+    display: none;
+}
+
+.read {
+    background-color: var(--white);
+}
+
+.message {
+    border: 1px solid var(--grayish-blue);
+    margin: 10px 15px;
+    border-radius: 5px;
+}
+
+.message:hover {
+    background-color: var(--light-grayish-blue-1);
+    border-color: var(--light-grayish-blue-1);
+}
+
+.message p {
+    padding: 3px;
+}
+
+.content img {
+    margin: -25px 436px;
+}
